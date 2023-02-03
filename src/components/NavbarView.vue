@@ -3,7 +3,7 @@
         <div>
             <v-app-bar color="deep-purple accent-4" dense dark>
 
-                <v-toolbar-title>IRAQ AUCTION</v-toolbar-title>
+                <v-toolbar-title>Web APP</v-toolbar-title>
 
                 <v-spacer></v-spacer>
 
@@ -26,13 +26,15 @@
                 </v-btn>
             </v-app-bar>
         </div>
+      <router-view/>
+            
     </v-container>
 </template>
 
 <script>
 
 export default {
-    name: 'HelloWorld',
+    name: 'NavbarView',
 
     data: () => ({
         
