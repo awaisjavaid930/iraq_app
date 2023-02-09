@@ -26,20 +26,19 @@
                 </v-btn>
             </v-app-bar>
         </div>
+        <SidebarView />
       <router-view/>
             
     </v-container>
 </template>
 
 <script>
+import SidebarView from './sidebar/SidebarView.vue';
+
 
 export default {
-    name: 'NavbarView',
-
-    data: () => ({
-        
-    }),
-    
-    
+    name: "NavbarView",
+    data: () => ({}),
+    components: { SidebarView }
 }
 </script>
