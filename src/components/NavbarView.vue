@@ -3,7 +3,7 @@
         <div>
             <v-app-bar color="deep-purple accent-4" dense dark>
 
-                <v-toolbar-title>Web APP</v-toolbar-title>
+                <v-toolbar-title>Iraq Action</v-toolbar-title>
 
                 <v-spacer></v-spacer>
 

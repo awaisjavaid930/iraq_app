@@ -1,15 +1,24 @@
 <template>
-    <div class="ma-12 pa-12">
+    <div>
         <SidebarView />
+        <CategoryCard />
+        
+        <div>
+            <ProductCard />
+        </div>
+        
     </div>
 </template>
 <script>
 import SidebarView from '@/components/sidebar/SidebarView.vue';
-
+import CategoryCard from '@/components/category/CategoryCard.vue';
+import ProductCard from '@/components/product/ProductCard.vue';
 export default {
     name: "DashboardViews",
     components : {
-        SidebarView
+        SidebarView,
+        CategoryCard,
+        ProductCard
     }
 }
 </script>
