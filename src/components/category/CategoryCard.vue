@@ -8,7 +8,7 @@
                         <v-img height="150" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
                         <v-card-title> Bike </v-card-title>
                         <v-divider class="mx-2"></v-divider>
-                        <v-card-title>Tonight's availability</v-card-title>
+                        <v-card-title>Tonight avail</v-card-title>
                         <v-card-actions>
                             <v-btn color="deep-purple lighten-2" text @click="reserve">
                                 Reserve
